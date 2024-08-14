@@ -3,18 +3,10 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/PostList.tsx",
+      "__resolveType": "site/sections/Feed.tsx",
       "posts": {
         "__resolveType": "site/loaders/posts.ts"
-      },
-      "quote": {
-        "quantity": 2
       }
-    },
-    {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
     },
     {
       "__resolveType": "Footer"

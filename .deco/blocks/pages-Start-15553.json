@@ -5,7 +5,11 @@
     {
       "__resolveType": "site/sections/Feed.tsx",
       "posts": {
-        "__resolveType": "site/loaders/posts.ts"
+        "__resolveType": "site/loaders/posts.ts",
+        "page": 4,
+        "postsIds": {
+          "__resolveType": "site/loaders/postsIds.ts"
+        }
       }
     },
     {

@@ -19,7 +19,7 @@ export default function Feed(props: Props) {
 
                 <li key={post.id} className="border border-gray-300 rounded-lg p-4 my-3 shadow-md hover:shadow-lg transition-shadow duration-200">
                     <p className="font-semibold text-lg">
-                        <strong>{post.title}</strong>
+                        {post.title}
                     </p>
 
                     <p className="mt-1 text-gray-600">By: <span className="font-medium">{post.by}</span></p>
